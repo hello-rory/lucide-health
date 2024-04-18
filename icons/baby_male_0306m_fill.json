@@ -1,1 +1,16 @@
-{"$schema":"../icon.schema.json","contributors":["hello-rory"],"tags":["medical","healthcare"],"categories":["people"]}
+{
+  "$schema": "../icon.schema.json",
+  "contributors": [
+    "hello-rory"
+  ],
+  "tags": [
+    "medical",
+    "healthcare"
+  ],
+  "categories": [
+    "people"
+  ],
+  "aliases": [
+    "baby_male_0306-m_fill"
+  ]
+}
