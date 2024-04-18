@@ -1,12 +1,12 @@
 import { describe, it, expect } from 'vitest';
 import { render, cleanup, waitFor } from '@testing-library/react';
-import { Pen, Edit2, Grid, LucideProps, Droplet } from '../src/lucide-react';
+import { Pain, Ear, Gastroenterology, LucideProps, Death } from '../src/lucide-react';
 import { Suspense, lazy } from 'react';
 import dynamicIconImports from '../src/dynamicIconImports';
 
 describe('Using lucide icon components', () => {
   it('should render an component', () => {
-    const { container } = render(<Grid />);
+    const { container } = render(<Gastroenterology />);
 
     expect(container.innerHTML).toMatchSnapshot();
   });
@@ -14,7 +14,7 @@ describe('Using lucide icon components', () => {
   it('should adjust the size, stroke color and stroke width', () => {
     const testId = 'grid-icon';
     const { container, getByTestId } = render(
-      <Grid
+      <Gastroenterology
         data-testid={testId}
         size={48}
         stroke="red"
@@ -35,7 +35,7 @@ describe('Using lucide icon components', () => {
 
   it('should render the alias icon', () => {
     const { container } = render(
-      <Pen
+      <Pain
         size={48}
         stroke="red"
         strokeWidth={4}
@@ -47,7 +47,7 @@ describe('Using lucide icon components', () => {
     cleanup();
 
     const { container: Edit2Container } = render(
-      <Edit2
+      <Ear
         size={48}
         stroke="red"
         strokeWidth={4}
@@ -60,7 +60,7 @@ describe('Using lucide icon components', () => {
   it('should not scale the strokeWidth when absoluteStrokeWidth is set', () => {
     const testId = 'grid-icon';
     const { container, getByTestId } = render(
-      <Grid
+      <Gastroenterology
         data-testid={testId}
         size={48}
         stroke="red"
@@ -81,7 +81,7 @@ describe('Using lucide icon components', () => {
 
   it('should apply all classNames to the element', () => {
     const testClass = 'my-class';
-    const { container } = render(<Droplet className={testClass} />);
+    const { container } = render(<Death className={testClass} />);
 
     expect(container.firstChild).toHaveClass(testClass);
     expect(container.firstChild).toHaveClass('lucide');
@@ -105,8 +105,8 @@ describe('Using lucide icon components', () => {
 
     const { container, getByLabelText } = render(
       <Icon
-        aria-label="smile"
-        name="smile"
+        aria-label="ambulance"
+        name="ambulance"
         size={48}
         stroke="red"
         absoluteStrokeWidth
