@@ -27,7 +27,7 @@ const createLucideIcon = (iconName: string, iconNode: IconNode): LucideIcon => {
       {
         color = 'currentColor',
         size = 24,
-        strokeWidth = 2,
+        strokeWidth = 1,
         absoluteStrokeWidth,
         className = '',
         children,
