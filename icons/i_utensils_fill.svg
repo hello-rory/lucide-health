@@ -1,32 +1,6 @@
-<svg
-  xmlns="http://www.w3.org/2000/svg"
-  width="24"
-  height="24"
-  viewBox="0 0 24 24"
-  fill="none"
-  stroke="currentColor"
-  stroke-width="2"
-  stroke-linecap="round"
-  stroke-linejoin="round"
->
-  <path
-    fill-rule="evenodd"
-    d="M28 4h-9v40h9v-4h-4v-2h4v-3h-2v-2h2v-3h-2v-2h2v-3h-4v-2h4v-3h-2v-2h2v-3h-2v-2h2v-3h-4V8h4z"
-    clip-rule="evenodd"
-  />
-  <path
-    fill-rule="evenodd"
-    d="M33 28a2 2 0 0 0-2 2v5h7v-5a2 2 0 0 0-2-2zm5 9h-7v5a2 2 0 0 0 2 2h3a2 2 0 0 0 2-2z"
-    clip-rule="evenodd"
-  />
-  <path
-    fill-rule="evenodd"
-    d="M33 30v3h3v-3zm5 0a2 2 0 0 0-2-2h-3a2 2 0 0 0-2 2v5h7zm-7 7h7v5a2 2 0 0 1-2 2h-3a2 2 0 0 1-2-2zm5 2h-3v3h3z"
-    clip-rule="evenodd"
-  />
-  <path
-    fill-rule="evenodd"
-    d="M13 11a3 3 0 0 0-3 3v3h6v-3a3 3 0 0 0-3-3m3 8h-6v21l3 4 3-4z"
-    clip-rule="evenodd"
-  />
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M28 4H19V44H28V40H24V38H28V35H26V33H28V30H26V28H28V25H24V23H28V20H26V18H28V15H26V13H28V10H24V8H28V4Z" fill="black"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M33 28C31.8954 28 31 28.8954 31 30V35H38V30C38 28.8954 37.1046 28 36 28H33ZM38 37H31V42C31 43.1046 31.8954 44 33 44H36C37.1046 44 38 43.1046 38 42V37Z" fill="black"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M33 30V33H36V30H33ZM38 30C38 28.8954 37.1046 28 36 28H33C31.8954 28 31 28.8954 31 30V35H38V30ZM31 37H38V42C38 43.1046 37.1046 44 36 44H33C31.8954 44 31 43.1046 31 42V37ZM36 39H33V42H36V39Z" fill="black"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M13 11C11.3431 11 10 12.3431 10 14V17H16V14C16 12.3431 14.6569 11 13 11ZM16 19H10V40L13 44L16 40V19Z" fill="black"/>
 </svg>

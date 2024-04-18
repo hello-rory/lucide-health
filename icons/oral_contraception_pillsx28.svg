@@ -1,150 +1,31 @@
-<svg
-  xmlns="http://www.w3.org/2000/svg"
-  width="24"
-  height="24"
-  viewBox="0 0 24 24"
-  fill="none"
-  stroke="currentColor"
-  stroke-width="2"
-  stroke-linecap="round"
-  stroke-linejoin="round"
->
-  <path
-    fill-rule="evenodd"
-    d="m8.444 21.172 18.384 18.384a2 2 0 0 0 2.829 0l9.9-9.9a2 2 0 0 0 0-2.828L21.171 8.444a2 2 0 0 0-2.829 0l-9.9 9.9a2 2 0 0 0 0 2.828m16.97 19.799a4 4 0 0 0 5.657 0l9.9-9.9a4 4 0 0 0 0-5.657L22.586 7.03a4 4 0 0 0-5.657 0l-9.9 9.899a4 4 0 0 0 0 5.657z"
-    clip-rule="evenodd"
-  />
-  <circle
-    cx="28.243"
-    cy="36.728"
-    r=".5"
-    transform="rotate(-135 28.243 36.728)"
-  />
-  <circle cx="25.414" cy="33.9" r=".5" transform="rotate(-135 25.414 33.9)" />
-  <circle
-    cx="22.586"
-    cy="31.071"
-    r=".5"
-    transform="rotate(-135 22.586 31.07)"
-  />
-  <circle
-    cx="19.758"
-    cy="28.242"
-    r=".5"
-    transform="rotate(-135 19.758 28.242)"
-  />
-  <circle
-    cx="16.929"
-    cy="25.414"
-    r=".5"
-    transform="rotate(-135 16.929 25.414)"
-  />
-  <circle cx="14.101" cy="22.586" r=".5" transform="rotate(-135 14.1 22.586)" />
-  <circle
-    cx="11.272"
-    cy="19.757"
-    r=".5"
-    transform="rotate(-135 11.272 19.757)"
-  />
-  <circle
-    cx="31.071"
-    cy="33.899"
-    r=".5"
-    transform="rotate(-135 31.071 33.899)"
-  />
-  <circle
-    cx="28.243"
-    cy="31.071"
-    r=".5"
-    transform="rotate(-135 28.243 31.07)"
-  />
-  <circle
-    cx="25.414"
-    cy="28.242"
-    r=".5"
-    transform="rotate(-135 25.414 28.242)"
-  />
-  <circle
-    cx="22.586"
-    cy="25.414"
-    r=".5"
-    transform="rotate(-135 22.586 25.414)"
-  />
-  <circle
-    cx="19.758"
-    cy="22.585"
-    r=".5"
-    transform="rotate(-135 19.758 22.585)"
-  />
-  <circle
-    cx="16.929"
-    cy="19.757"
-    r=".5"
-    transform="rotate(-135 16.93 19.757)"
-  />
-  <circle cx="14.101" cy="16.929" r=".5" transform="rotate(-135 14.1 16.929)" />
-  <circle cx="33.9" cy="31.07" r=".5" transform="rotate(-135 33.9 31.07)" />
-  <circle
-    cx="31.072"
-    cy="28.242"
-    r=".5"
-    transform="rotate(-135 31.072 28.242)"
-  />
-  <circle
-    cx="28.243"
-    cy="25.414"
-    r=".5"
-    transform="rotate(-135 28.243 25.414)"
-  />
-  <circle
-    cx="25.415"
-    cy="22.585"
-    r=".5"
-    transform="rotate(-135 25.415 22.585)"
-  />
-  <circle
-    cx="22.586"
-    cy="19.757"
-    r=".5"
-    transform="rotate(-135 22.586 19.757)"
-  />
-  <circle
-    cx="19.758"
-    cy="16.928"
-    r=".5"
-    transform="rotate(-135 19.758 16.928)"
-  />
-  <circle cx="16.929" cy="14.1" r=".5" transform="rotate(-135 16.93 14.1)" />
-  <circle
-    cx="36.728"
-    cy="28.242"
-    r=".5"
-    transform="rotate(-135 36.728 28.242)"
-  />
-  <circle cx="33.9" cy="25.413" r=".5" transform="rotate(-135 33.9 25.413)" />
-  <circle
-    cx="31.072"
-    cy="22.585"
-    r=".5"
-    transform="rotate(-135 31.072 22.585)"
-  />
-  <circle
-    cx="28.243"
-    cy="19.757"
-    r=".5"
-    transform="rotate(-135 28.243 19.757)"
-  />
-  <circle
-    cx="25.415"
-    cy="16.928"
-    r=".5"
-    transform="rotate(-135 25.415 16.928)"
-  />
-  <circle cx="22.587" cy="14.1" r=".5" transform="rotate(-135 22.587 14.1)" />
-  <circle
-    cx="19.758"
-    cy="11.271"
-    r=".5"
-    transform="rotate(-135 19.758 11.271)"
-  />
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M8.44366 21.1717L26.8284 39.5564C27.6095 40.3375 28.8758 40.3375 29.6569 39.5564L39.5564 29.6569C40.3374 28.8759 40.3374 27.6096 39.5564 26.8285L21.1716 8.44373C20.3905 7.66269 19.1242 7.66269 18.3432 8.44373L8.44366 18.3432C7.66261 19.1243 7.66261 20.3906 8.44366 21.1717ZM25.4142 40.9706C26.9763 42.5327 29.509 42.5327 31.0711 40.9706L40.9706 31.0712C42.5327 29.5091 42.5327 26.9764 40.9706 25.4143L22.5858 7.02952C21.0237 5.46742 18.491 5.46742 16.9289 7.02952L7.02944 16.929C5.46735 18.4911 5.46734 21.0238 7.02944 22.5859L25.4142 40.9706Z" fill="black"/>
+<circle cx="28.2427" cy="36.7279" r="0.5" transform="rotate(-135 28.2427 36.7279)" stroke="black"/>
+<circle cx="25.4142" cy="33.8995" r="0.5" transform="rotate(-135 25.4142 33.8995)" stroke="black"/>
+<circle cx="22.586" cy="31.0709" r="0.5" transform="rotate(-135 22.586 31.0709)" stroke="black"/>
+<circle cx="19.7575" cy="28.2425" r="0.5" transform="rotate(-135 19.7575 28.2425)" stroke="black"/>
+<circle cx="16.929" cy="25.4142" r="0.5" transform="rotate(-135 16.929 25.4142)" stroke="black"/>
+<circle cx="14.1005" cy="22.5858" r="0.5" transform="rotate(-135 14.1005 22.5858)" stroke="black"/>
+<circle cx="11.2723" cy="19.7572" r="0.5" transform="rotate(-135 11.2723 19.7572)" stroke="black"/>
+<circle cx="31.0714" cy="33.899" r="0.5" transform="rotate(-135 31.0714 33.899)" stroke="black"/>
+<circle cx="28.2429" cy="31.0707" r="0.5" transform="rotate(-135 28.2429 31.0707)" stroke="black"/>
+<circle cx="25.4144" cy="28.2423" r="0.5" transform="rotate(-135 25.4144 28.2423)" stroke="black"/>
+<circle cx="22.5862" cy="25.4137" r="0.5" transform="rotate(-135 22.5862 25.4137)" stroke="black"/>
+<circle cx="19.7577" cy="22.5853" r="0.5" transform="rotate(-135 19.7577 22.5853)" stroke="black"/>
+<circle cx="16.9292" cy="19.7569" r="0.5" transform="rotate(-135 16.9292 19.7569)" stroke="black"/>
+<circle cx="14.1007" cy="16.9286" r="0.5" transform="rotate(-135 14.1007 16.9286)" stroke="black"/>
+<circle cx="33.9001" cy="31.0704" r="0.5" transform="rotate(-135 33.9001 31.0704)" stroke="black"/>
+<circle cx="31.0716" cy="28.242" r="0.5" transform="rotate(-135 31.0716 28.242)" stroke="black"/>
+<circle cx="28.2431" cy="25.4137" r="0.5" transform="rotate(-135 28.2431 25.4137)" stroke="black"/>
+<circle cx="25.4146" cy="22.5853" r="0.5" transform="rotate(-135 25.4146 22.5853)" stroke="black"/>
+<circle cx="22.5864" cy="19.7567" r="0.5" transform="rotate(-135 22.5864 19.7567)" stroke="black"/>
+<circle cx="19.7579" cy="16.9283" r="0.5" transform="rotate(-135 19.7579 16.9283)" stroke="black"/>
+<circle cx="16.9294" cy="14.0999" r="0.5" transform="rotate(-135 16.9294 14.0999)" stroke="black"/>
+<circle cx="36.7285" cy="28.242" r="0.5" transform="rotate(-135 36.7285 28.242)" fill="black" stroke="black"/>
+<circle cx="33.9003" cy="25.4134" r="0.5" transform="rotate(-135 33.9003 25.4134)" fill="black" stroke="black"/>
+<circle cx="31.0718" cy="22.5851" r="0.5" transform="rotate(-135 31.0718 22.5851)" fill="black" stroke="black"/>
+<circle cx="28.2433" cy="19.7567" r="0.5" transform="rotate(-135 28.2433 19.7567)" fill="black" stroke="black"/>
+<circle cx="25.4148" cy="16.9283" r="0.5" transform="rotate(-135 25.4148 16.9283)" fill="black" stroke="black"/>
+<circle cx="22.5866" cy="14.0997" r="0.5" transform="rotate(-135 22.5866 14.0997)" fill="black" stroke="black"/>
+<circle cx="19.7581" cy="11.2713" r="0.5" transform="rotate(-135 19.7581 11.2713)" fill="black" stroke="black"/>
 </svg>

@@ -1,26 +1,12 @@
-<svg
-  xmlns="http://www.w3.org/2000/svg"
-  width="24"
-  height="24"
-  viewBox="0 0 24 24"
-  fill="none"
-  stroke="currentColor"
-  stroke-width="2"
-  stroke-linecap="round"
-  stroke-linejoin="round"
->
-  <path d="M16 20h4v3h-4z" />
-  <path d="M20 25h-4v3h4z" />
-  <path d="M16 30h4v3h-4z" />
-  <path d="M26 20h-4v3h4z" />
-  <path d="M22 25h4v3h-4z" />
-  <path d="M26 30h-4v3h4z" />
-  <path d="M28 20h4v3h-4z" />
-  <path d="M32 25h-4v3h4z" />
-  <path d="M28 30h4v3h-4z" />
-  <path
-    fill-rule="evenodd"
-    d="M31 6a2 2 0 0 0-2-2H19a2 2 0 0 0-2 2h-7v2h2v34H9a1 1 0 1 0 0 2h30a1 1 0 1 0 0-2h-3V8h2V6zm-2 12a2 2 0 0 0 2-2v-5h3v31h-3v-4h1v-2H16v2h1v4h-3V11h3v5a2 2 0 0 0 2 2zm-6 24h2v-4h-2zM34 8v1h-3V8zM14 9h3V8h-3zm6 1h3V7h2v3h3v2h-3v3h-2v-3h-3z"
-    clip-rule="evenodd"
-  />
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M16 20H20V23H16V20Z" fill="black"/>
+<path d="M20 25H16V28H20V25Z" fill="black"/>
+<path d="M16 30H20V33H16V30Z" fill="black"/>
+<path d="M26 20H22V23H26V20Z" fill="black"/>
+<path d="M22 25H26V28H22V25Z" fill="black"/>
+<path d="M26 30H22V33H26V30Z" fill="black"/>
+<path d="M28 20H32V23H28V20Z" fill="black"/>
+<path d="M32 25H28V28H32V25Z" fill="black"/>
+<path d="M28 30H32V33H28V30Z" fill="black"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M31 6C31 4.89543 30.1046 4 29 4H19C17.8954 4 17 4.89543 17 6L10 6V8H12V42H9C8.44772 42 8 42.4477 8 43C8 43.5523 8.44772 44 9 44H39C39.5523 44 40 43.5523 40 43C40 42.4477 39.5523 42 39 42H36V8H38V6H31ZM29 18C30.1046 18 31 17.1046 31 16V11H34V42H31V38H32V36H16V38H17V42H14V11H17V16C17 17.1046 17.8954 18 19 18H29ZM23 42H25V38H23V42ZM34 8V9H31V8H34ZM14 9H17V8H14V9ZM20 10H23V7H25V10H28V12H25V15H23V12H20V10Z" fill="black"/>
 </svg>
