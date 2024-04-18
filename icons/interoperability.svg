@@ -1,0 +1,67 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path
+    fill-rule="evenodd"
+    d="M17.94 22.342a1 1 0 0 1-1.282.598l-5.5-2a1 1 0 1 1 .684-1.88l5.5 2a1 1 0 0 1 .598 1.282"
+    clip-rule="evenodd"
+  />
+  <path
+    fill-rule="evenodd"
+    d="M37.429 19.629a1 1 0 0 1-.558 1.3l-5 2a1 1 0 0 1-.742-1.857l5-2a1 1 0 0 1 1.3.557"
+    clip-rule="evenodd"
+  />
+  <path
+    fill-rule="evenodd"
+    d="M20.088 29.692a1 1 0 0 1 .22 1.396l-4 5.5a1 1 0 1 1-1.617-1.176l4-5.5a1 1 0 0 1 1.397-.22"
+    clip-rule="evenodd"
+  />
+  <path
+    fill-rule="evenodd"
+    d="M33.088 36.809a1 1 0 0 1-1.397-.22l-4-5.5a1 1 0 1 1 1.618-1.177l4 5.5a1 1 0 0 1-.22 1.397"
+    clip-rule="evenodd"
+  />
+  <path
+    fill-rule="evenodd"
+    d="M24 26a2 2 0 1 0 0-4 2 2 0 0 0 0 4m0 2a4 4 0 1 0 0-8 4 4 0 0 0 0 8"
+    clip-rule="evenodd"
+  />
+  <path
+    fill-rule="evenodd"
+    d="M23.902 17.5a1 1 0 0 1-1-1V10a1 1 0 1 1 2 0v6.5a1 1 0 0 1-1 1"
+    clip-rule="evenodd"
+  />
+  <path
+    fill-rule="evenodd"
+    d="M23 7.902a1 1 0 1 0 2 0 1 1 0 0 0-2 0m-2 0a3 3 0 1 0 6 0 3 3 0 0 0-6 0"
+    clip-rule="evenodd"
+  />
+  <path
+    fill-rule="evenodd"
+    d="M39 20a1 1 0 1 0 0-2 1 1 0 0 0 0 2m0 2a3 3 0 1 0 0-6 3 3 0 0 0 0 6"
+    clip-rule="evenodd"
+  />
+  <path
+    fill-rule="evenodd"
+    d="M14 39a1 1 0 1 0 0-2 1 1 0 0 0 0 2m0 2a3 3 0 1 0 0-6 3 3 0 0 0 0 6"
+    clip-rule="evenodd"
+  />
+  <path
+    fill-rule="evenodd"
+    d="M34 39a1 1 0 1 0 0-2 1 1 0 0 0 0 2m0 2a3 3 0 1 0 0-6 3 3 0 0 0 0 6"
+    clip-rule="evenodd"
+  />
+  <path
+    fill-rule="evenodd"
+    d="M9 20a1 1 0 1 0 0-2 1 1 0 0 0 0 2m0 2a3 3 0 1 0 0-6 3 3 0 0 0 0 6"
+    clip-rule="evenodd"
+  />
+</svg>

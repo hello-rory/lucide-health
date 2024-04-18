@@ -1,5 +1,5 @@
 {
   "$schema": "../category.schema.json",
-  "title": "People",
-  "icon": "person-standing"
+  "title": "people",
+  "icon": "agriculture_fill"
 }

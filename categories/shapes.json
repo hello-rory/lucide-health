@@ -1,5 +1,5 @@
 {
   "$schema": "../category.schema.json",
-  "title": "Shapes",
-  "icon": "triangle"
+  "title": "shapes",
+  "icon": "circle_large_fill"
 }

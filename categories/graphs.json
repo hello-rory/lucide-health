@@ -1,0 +1,5 @@
+{
+  "$schema": "../category.schema.json",
+  "title": "graphs",
+  "icon": "chart-cured-decreasing_fill"
+}
