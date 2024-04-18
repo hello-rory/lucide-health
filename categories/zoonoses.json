@@ -1,5 +1,1 @@
-{
-  "$schema": "../category.schema.json",
-  "title": "zoonoses",
-  "icon": "animal_bat_fill"
-}
+{"$schema":"../category.schema.json","title":"zoonoses","icon":"animal_bat_fill"}

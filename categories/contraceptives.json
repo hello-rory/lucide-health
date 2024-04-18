@@ -1,5 +1,1 @@
-{
-  "$schema": "../category.schema.json",
-  "title": "contraceptives",
-  "icon": "contraceptive_diaphragm_fill"
-}
+{"$schema":"../category.schema.json","title":"contraceptives","icon":"contraceptive_diaphragm_fill"}

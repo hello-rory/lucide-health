@@ -1,5 +1,1 @@
-{
-  "$schema": "../category.schema.json",
-  "title": "medications",
-  "icon": "blister_pills_oval_x1_fill"
-}
+{"$schema":"../category.schema.json","title":"medications","icon":"blister_pills_oval_x1_fill"}

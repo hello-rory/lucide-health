@@ -1,5 +1,1 @@
-{
-  "$schema": "../category.schema.json",
-  "title": "diagnostics",
-  "icon": "cone_test_on_nets_fill"
-}
+{"$schema":"../category.schema.json","title":"diagnostics","icon":"cone_test_on_nets_fill"}

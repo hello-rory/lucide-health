@@ -1,5 +1,1 @@
-{
-  "$schema": "../category.schema.json",
-  "title": "ppe",
-  "icon": "disinfecting_wipes_fill"
-}
+{"$schema":"../category.schema.json","title":"ppe","icon":"disinfecting_wipes_fill"}

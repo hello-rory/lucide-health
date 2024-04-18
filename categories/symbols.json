@@ -1,5 +1,1 @@
-{
-  "$schema": "../category.schema.json",
-  "title": "symbols",
-  "icon": "twog_fill"
-}
+{"$schema":"../category.schema.json","title":"symbols","icon":"twog_fill"}

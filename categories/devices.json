@@ -1,5 +1,1 @@
-{
-  "$schema": "../category.schema.json",
-  "title": "devices",
-  "icon": "asthma_inhaler_fill"
-}
+{"$schema":"../category.schema.json","title":"devices","icon":"asthma_inhaler_fill"}

@@ -1,5 +1,1 @@
-{
-  "$schema": "../category.schema.json",
-  "title": "blood",
-  "icon": "blood_a_n_fill"
-}
+{"$schema":"../category.schema.json","title":"blood","icon":"blood_a_n_fill"}

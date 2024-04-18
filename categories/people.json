@@ -1,5 +1,1 @@
-{
-  "$schema": "../category.schema.json",
-  "title": "people",
-  "icon": "agriculture_fill"
-}
+{"$schema":"../category.schema.json","title":"people","icon":"agriculture_fill"}

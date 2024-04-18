@@ -1,5 +1,1 @@
-{
-  "$schema": "../category.schema.json",
-  "title": "typography",
-  "icon": "exclamation_fill"
-}
+{"$schema":"../category.schema.json","title":"typography","icon":"exclamation_fill"}
