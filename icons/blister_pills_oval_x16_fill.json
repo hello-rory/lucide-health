@@ -1,16 +1,1 @@
-{
-  "$schema": "../icon.schema.json",
-  "contributors": [
-    "hello-rory"
-  ],
-  "tags": [
-    "medical",
-    "healthcare"
-  ],
-  "categories": [
-    "medications"
-  ],
-  "aliases": [
-    "blister_pills_oval_x-16_fill"
-  ]
-}
+{"$schema":"../icon.schema.json","contributors":["hello-rory"],"tags":["medical","healthcare"],"categories":["medications"]}

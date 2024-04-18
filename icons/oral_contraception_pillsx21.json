@@ -1,16 +1,1 @@
-{
-  "$schema": "../icon.schema.json",
-  "contributors": [
-    "hello-rory"
-  ],
-  "tags": [
-    "medical",
-    "healthcare"
-  ],
-  "categories": [
-    "contraceptives"
-  ],
-  "aliases": [
-    "oral_contraception_pillsx-21"
-  ]
-}
+{"$schema":"../icon.schema.json","contributors":["hello-rory"],"tags":["medical","healthcare"],"categories":["contraceptives"]}
