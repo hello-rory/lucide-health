@@ -1,7 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import prettier from 'prettier';
-import { readSvg, toPascalCase } from '../../../scripts/helpers.mjs';
+import { readSvg, toPascalCase, camelCaseKeys } from '../../../scripts/helpers.mjs';
 
 export default ({
   iconNodes,
@@ -25,7 +25,7 @@ export default ({
     const componentName = toPascalCase(iconName);
 
     let { children } = iconNodes[iconName];
-    children = children.map(({ name, attributes }) => [name, attributes]);
+    children = children.map(({ name, attributes }) => [name, camelCaseKeys(attributes)]);
 
     const getSvg = () => readSvg(`${iconName}.svg`, iconsDir);
     const { deprecated = false } = iconMetaData[iconName];

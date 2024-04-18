@@ -224,3 +224,7 @@ export function minifySvg(string) {
         .trim()
     : '';
 }
+
+export function camelCaseKeys(obj) {
+  return Object.fromEntries(Object.entries(obj).map(([key, value]) => [toCamelCase(key), value]));
+}
