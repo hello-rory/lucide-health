@@ -167,17 +167,27 @@ export const hash = (string, seed = 5381) => {
 export const generateHashedKey = ({ name, attributes }) => hash(JSON.stringify([name, attributes]));
 
 /**
- * Checks if array of items contains duplicated items
+ * Checks if array of items contains duplicated items and removes them
+ * MUTATION
  *
  * @param {array} children an array of items
- * @returns {Boolean} if items contains duplicated items.
+ * @returns {array} children an array of duplicate items
  */
-export const hasDuplicatedChildren = (children) => {
+export const removeDuplicateChildren = (children) => {
   const hashedKeys = children.map(generateHashedKey);
+  const duplicates = [];
 
-  return !hashedKeys.every(
-    (key, index) => index === hashedKeys.findIndex((childKey) => childKey === key),
-  );
+  hashedKeys.forEach((focusedKey, focusedIndex) => {
+    hashedKeys.slice(focusedIndex).forEach((targetKey, targetIndex) => {
+      const normalizedTargetIndex = targetIndex + focusedIndex;
+      if (focusedIndex !== normalizedTargetIndex && focusedKey === targetKey) {
+        console.log({ focusedKey, focusedIndex, targetKey, normalizedTargetIndex, hashedKeys });
+        duplicates.push(...hashedKeys.splice(normalizedTargetIndex, 1));
+      }
+    });
+  });
+
+  return duplicates;
 };
 
 /**
@@ -227,4 +237,10 @@ export function minifySvg(string) {
 
 export function camelCaseKeys(obj) {
   return Object.fromEntries(Object.entries(obj).map(([key, value]) => [toCamelCase(key), value]));
+}
+
+export function overwriteChildFillAttribute(obj) {
+  return Object.assign(obj, {
+    fill: 'currentColor',
+  });
 }

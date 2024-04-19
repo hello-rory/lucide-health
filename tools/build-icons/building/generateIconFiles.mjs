@@ -1,7 +1,12 @@
 import fs from 'fs';
 import path from 'path';
 import prettier from 'prettier';
-import { readSvg, toPascalCase, camelCaseKeys } from '../../../scripts/helpers.mjs';
+import {
+  readSvg,
+  toPascalCase,
+  camelCaseKeys,
+  overwriteChildFillAttribute,
+} from '../../../scripts/helpers.mjs';
 
 export default ({
   iconNodes,
@@ -25,7 +30,10 @@ export default ({
     const componentName = toPascalCase(iconName);
 
     let { children } = iconNodes[iconName];
-    children = children.map(({ name, attributes }) => [name, camelCaseKeys(attributes)]);
+    children = children.map(({ name, attributes }) => [
+      name,
+      camelCaseKeys(overwriteChildFillAttribute(attributes)),
+    ]);
 
     const getSvg = () => readSvg(`${iconName}.svg`, iconsDir);
     const { deprecated = false } = iconMetaData[iconName];
@@ -43,13 +51,9 @@ export default ({
     await fs.promises.writeFile(location, output, 'utf-8');
   });
 
-  Promise.all(writeIconFiles)
-    .then(() => {
-      if (showLog) {
-        console.log('Successfully built', icons.length, 'icons.');
-      }
-    })
-    .catch((error) => {
-      throw new Error(`Something went wrong generating icon files,\n ${error}`);
-    });
+  Promise.all(writeIconFiles).then(() => {
+    if (showLog) {
+      console.log('Successfully built', icons.length, 'icons.');
+    }
+  });
 };

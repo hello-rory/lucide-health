@@ -22,6 +22,7 @@ packages/**/dynamicIconImports.js
 packages/**/dynamicIconImports.d.ts
 packages/**/dynamicIconImports.js.map
 packages/**/LICENSE
+scripts/healthIcons/downloads-here/*
 categories.json
 tags.json
 .vercel

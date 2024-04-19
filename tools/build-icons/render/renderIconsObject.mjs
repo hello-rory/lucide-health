@@ -1,6 +1,6 @@
 import { basename } from 'path';
 import { parseSync } from 'svgson';
-import { generateHashedKey, readSvg, hasDuplicatedChildren } from '../../../scripts/helpers.mjs';
+import { generateHashedKey, readSvg, removeDuplicateChildren } from '../../../scripts/helpers.mjs';
 
 /**
  * Build an object in the format: `{ <name>: <contents> }`.
@@ -19,8 +19,9 @@ export default (svgFiles, iconsDirectory, renderUniqueKey = false) =>
         throw new Error(`${name}.svg has no children!`);
       }
 
-      if (hasDuplicatedChildren(contents.children)) {
-        throw new Error(`Duplicated children in ${name}.svg`);
+      const duplicateChildren = removeDuplicateChildren(contents.children);
+      if (duplicateChildren.length > 0) {
+        console.warn(`Duplicate child (${duplicateChildren.length}) found in ${name}.svg`);
       }
 
       if (renderUniqueKey) {

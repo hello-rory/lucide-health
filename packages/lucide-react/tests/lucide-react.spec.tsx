@@ -1,6 +1,6 @@
 import { describe, it, expect } from 'vitest';
 import { render, cleanup, waitFor } from '@testing-library/react';
-import { Pain, Ear, Gastroenterology, LucideProps, Death } from '../src/lucide-react';
+import { Pain, Ear, Gastroenterology, LucideProps, Death } from '../src';
 import { Suspense, lazy } from 'react';
 import dynamicIconImports from '../src/dynamicIconImports';
 
