@@ -1,1 +1,5 @@
-{"$schema":"../category.schema.json","title":"objects","icon":"bandage_adhesive_fill"}
+{
+  "$schema": "../category.schema.json",
+  "title": "objects",
+  "icon": "stock_out_fill"
+}

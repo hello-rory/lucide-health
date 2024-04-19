@@ -1,1 +1,5 @@
-{"$schema":"../category.schema.json","title":"conditions","icon":"allergies_fill"}
+{
+  "$schema": "../category.schema.json",
+  "title": "conditions",
+  "icon": "varicose_vein_fill"
+}

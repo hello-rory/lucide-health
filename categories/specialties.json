@@ -1,1 +1,5 @@
-{"$schema":"../category.schema.json","title":"specialties","icon":"accident_and_emergency_fill"}
+{
+  "$schema": "../category.schema.json",
+  "title": "specialties",
+  "icon": "rheumatology_fill"
+}

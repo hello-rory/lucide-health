@@ -1,1 +1,5 @@
-{"$schema":"../category.schema.json","title":"shapes","icon":"circle_large_fill"}
+{
+  "$schema": "../category.schema.json",
+  "title": "shapes",
+  "icon": "square_medium_fill"
+}

@@ -1,1 +1,5 @@
-{"$schema":"../category.schema.json","title":"emotions","icon":"angry_fill"}
+{
+  "$schema": "../category.schema.json",
+  "title": "emotions",
+  "icon": "nervous_fill"
+}

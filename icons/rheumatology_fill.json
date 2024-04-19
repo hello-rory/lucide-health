@@ -1,1 +1,13 @@
-{"$schema":"../icon.schema.json","contributors":["hello-rory"],"tags":["medical","healthcare"],"categories":["specialties"]}
+{
+  "$schema": "../icon.schema.json",
+  "contributors": [
+    "hello-rory"
+  ],
+  "tags": [
+    "medical",
+    "healthcare"
+  ],
+  "categories": [
+    "specialties"
+  ]
+}

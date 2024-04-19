@@ -1,1 +1,5 @@
-{"$schema":"../category.schema.json","title":"vehicles","icon":"fourx4_fill"}
+{
+  "$schema": "../category.schema.json",
+  "title": "vehicles",
+  "icon": "bike_fill"
+}

@@ -1,1 +1,5 @@
-{"$schema":"../category.schema.json","title":"graphs","icon":"chart-cured-decreasing_fill"}
+{
+  "$schema": "../category.schema.json",
+  "title": "graphs",
+  "icon": "chart-infected-stable_fill"
+}

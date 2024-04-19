@@ -1,1 +1,5 @@
-{"$schema":"../category.schema.json","title":"nutrition","icon":"alcohol_fill"}
+{
+  "$schema": "../category.schema.json",
+  "title": "nutrition",
+  "icon": "unhealthy_food_fill"
+}

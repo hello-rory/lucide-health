@@ -1,1 +1,5 @@
-{"$schema":"../category.schema.json","title":"exercise","icon":"exercise_fill"}
+{
+  "$schema": "../category.schema.json",
+  "title": "exercise",
+  "icon": "weights_fill"
+}
