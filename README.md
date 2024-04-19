@@ -10,6 +10,16 @@ Privately-run fork of [Lucide Icons](https://github.com/lucide-icons/lucide) whi
 4. run `pnpm lucide-react build`
 5. copy and paste `./packages/lucide-react/src` to wherever you need it.
 
+## Notes
+
+Basic overview of changes from fork:
+
+1. changes icon default `viewBox` from '0 0 24 24' to '0 0 48 48'
+2. changes icon default `strokeWidth` from 1 to 2.
+3. removes duplicate icon children instead of throwing build errors
+4. camelCases svg children attributes
+5. only supports react package
+
 ## Credits
 
 Thank you to all the people who contributed to Lucide and healthicons!
