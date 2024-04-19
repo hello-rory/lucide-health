@@ -18,7 +18,8 @@ Basic overview of changes from fork:
 2. changes icon default `strokeWidth` from 1 to 2.
 3. removes duplicate icon children instead of throwing build errors
 4. camelCases svg children attributes
-5. only supports react package
+5. sets `stroke="currentColor"` on all svg chilren (because health icons sets it to black making negatives impossible)
+6. only supports react package
 
 ## Credits
 
